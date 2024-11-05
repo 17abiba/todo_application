@@ -51,7 +51,7 @@ class _HomePage extends State<HomePage>{
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Your Daily To DO ; )", style: TextStyle(color: customColor1, fontSize: 20),),
+          title: Text("Your Daily To Do)", style: TextStyle(color: customColor1, fontSize: 20),),
           centerTitle: true,
           toolbarHeight: 40,
           shape: const RoundedRectangleBorder(
